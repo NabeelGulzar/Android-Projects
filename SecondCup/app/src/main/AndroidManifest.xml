@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.secondcup">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OpeningPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Second Cup"></activity>
+        <activity
+            android:name=".SubCDActivity"
+            android:label="Cafe Delights" />
+        <activity
+            android:name=".SubHCActivity"
+            android:label="Handcrafted Classics" />
+        <activity
+            android:name=".SubBCActivity"
+            android:label="Barista Crafted (Perfect Cup)" />
+        <activity
+            android:name=".SubANFYActivity"
+            android:label="All Natural Frozen Yogurts" />
+        <activity
+            android:name=".SubFFActivity"
+            android:label="Frozen Foods" />
+        <activity
+            android:name=".itemsCDSWActivity"
+            android:label="Sandwiches And Wraps" />
+        <activity
+            android:name=".itemsCDSActivity"
+            android:label="Salads" />
+        <activity
+            android:name=".itemsCDBGActivity"
+            android:label="Baked Goods" />
+        <activity
+            android:name=".itemsCDMActivity"
+            android:label="Muffins" />
+        <activity
+            android:name=".itemsCDCIActivity"
+            android:label="Cakes (Imported)" />
+        <activity
+            android:name=".itemsCDCLActivity"
+            android:label="Cakes (Local)" />
+        <activity
+            android:name=".itemsCDCActivity"
+            android:label="Cookies" />
+        <activity
+            android:name=".itemsCDLActivity"
+            android:label="Loaves" />
+        <activity
+            android:name=".itemsHCEuActivity"
+            android:label="Europeans" />
+        <activity
+            android:name=".itemsHCEsActivity"
+            android:label="Espressos" />
+        <activity
+            android:name=".itemsHCTLActivity"
+            android:label="Tea Lattés" />
+        <activity
+            android:name=".itemsHCAITActivity"
+            android:label="Artisan Infused Teas" />
+        <activity
+            android:name=".itemsHCSCSActivity"
+            android:label="Second Cup Specialties" />
+        <activity
+            android:name=".itemsHCEuSSubActivity"
+            android:label="Signature Lattés" />
+        <activity
+            android:name=".itemsFFCActivity"
+            android:label="Chillers" />
+        <activity
+            android:name=".itemsFFFCActivity"
+            android:label="Fruit Chillers" />
+        <activity
+            android:name=".itemsANFYSmActivity"
+            android:label="Smoothies" />
+        <activity
+            android:name=".itemsANFYShActivity"
+            android:label="Shakes" />
+        <activity
+            android:name=".itemsANFYPActivity"
+            android:label="Parfaits" />
+        <activity
+            android:name=".detailActivity"
+            android:label="Details" />
+        <activity android:name=".baseactivity" />
+        <activity
+            android:name=".orderActivity"
+            android:label="Order Now">
+            <intent-filter>
+                <action android:name="com.example.android.secondcup.orderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- <activity android:name=".Base"></activity> -->
+    </application>
+
+</manifest>

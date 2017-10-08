@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pizza Now</string>
+    <string name="spnrBevTitle">Select Drink</string>
+    <string-array name="lstBeverages">
+        <item>7up</item>
+        <item>Fanta</item>
+        <item>Coca Cola</item>
+        <item>Dew</item>
+        <item>Water</item>
+    </string-array>
+</resources>
